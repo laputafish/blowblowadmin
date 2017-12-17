@@ -53,7 +53,7 @@ export default {
     return {
       socialData: [
         {name: 'facebook',
-          lineData: '[65, 59, 84, 84, 51, 55, 40]',
+          lineData: [65, 59, 84, 84, 51, 55, 40],
           keyValues: [
             {title: 'friends', value: '89k'},
             {title: 'feeds', value: '459'}

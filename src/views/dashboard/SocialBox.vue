@@ -14,14 +14,6 @@
 </template>
 
 <script>
-/*
-socialData = [
-  {name: 'twitter', lineData:[1,13,9,17,34,41,38],keyValues:[
-    {title:'followers',value:'973k'},
-    {title:'tweets',value:'1'}
-  ]}
-]
-*/
 import SocialBoxChartExample from './SocialBoxChartExample'
 
 export default {

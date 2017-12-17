@@ -13,6 +13,9 @@ import Widgets from '@/views/Widgets'
 // import Login from '@/pages/login'
 // import Register from '@/pages/register'
 
+// View: /bootstrapcdn
+import Alerts from '@/views/bootstrap/Alerts'
+
 // View: /Components
 import Buttons from '@/views/components/Buttons'
 import SocialButtons from '@/views/components/SocialButtons'
@@ -102,6 +105,23 @@ export default new Router({
           path: 'pages/header_page3',
           name: 'HeaderPage3',
           component: HeaderPage3
+        },
+        {
+          path: 'bootstrap',
+          redirect: '/bootstrap/alerts',
+          name: 'Bootstrap',
+          component: {
+            render (c) {
+              return c('router-view')
+            }
+          },
+          children: [
+            {
+              path: 'alerts',
+              name: 'Alerts',
+              component: Alerts
+            }
+          ]
         },
         {
           path: 'components',

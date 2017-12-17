@@ -14,6 +14,18 @@ export default {
       name: 'UI elements'
     },
     {
+      name: 'Bootstrap',
+      url: '/bootstrap',
+      icon: 'icon-settings',
+      children: [
+        {
+          name: 'Alerts',
+          url: '/bootstrap/alerts',
+          icon: 'icon-link'
+        }
+      ]
+    },
+    {
       name: 'Components',
       url: '/components',
       icon: 'icon-puzzle',

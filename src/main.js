@@ -4,6 +4,7 @@ import Vue from 'vue'
 import BootstrapVue from 'bootstrap-vue/dist/bootstrap-vue.esm'
 import App from './App'
 import router from './router'
+import $ from 'jquery'
 
 // import jQuery from 'jquery'
 //
@@ -16,6 +17,9 @@ import 'bootstrap'
 
 // window.jQuery = jQuery
 // window.$ = jQuery
+
+window.$ = $
+window.jQuery = $
 
 Vue.use(BootstrapVue)
 

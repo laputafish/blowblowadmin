@@ -28,6 +28,7 @@
     "rijs": "^0.8.2",
     "sass-loader": "^6.0.6",
     "simple-line-icons": "^2.4.1",
+    "sweetalert2": "^7.0.10",
     "tls": "0.0.1",
     "vue": "^2.5.2",
     "vue-chartjs": "^2.8.1",

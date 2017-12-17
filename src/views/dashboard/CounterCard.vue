@@ -18,7 +18,12 @@
 </template>
 
 <script>
+import CardLine3ChartExample from './CardLine3ChartExample'
+
 export default {
+  components: {
+    cardLine3ChartExample: CardLine3ChartExample
+  },
   name: 'counterCard',
   props: [
     'card'
