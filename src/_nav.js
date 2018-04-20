@@ -22,6 +22,69 @@ export default {
           name: 'Alerts',
           url: '/bootstrap/alerts',
           icon: 'icon-link'
+        },
+        {
+          name: 'Badge',
+          url: '/bootstrap/badge',
+          icon: 'icon-link'
+        },
+        {
+          name: 'Buttons',
+          url: '/bootstrap/buttons',
+          icon: 'icon-link'
+        },
+        {
+          name: 'Carousel',
+          url: '/bootstrap/carousel',
+          icon: 'icon-link'
+        },
+        {
+          name: 'Collapse',
+          url: '/bootstrap/collapse',
+          icon: 'icon-link'
+        },
+        {
+          name: 'Dropdown',
+          url: '/bootstrap/dropdown',
+          icon: 'icon-link'
+        },
+        {
+          name: 'Forms',
+          url: '/bootstrap/forms',
+          icon: 'icon-link'
+        },
+        {
+          name: 'InputGroups',
+          url: '/bootstrap/inputgroup',
+          icon: 'icon-link'
+        },
+        {
+          name: 'Jumbotron',
+          url: '/bootstrap/jumbotron',
+          icon: 'icon-link'
+        },
+        {
+          name: 'ListGroup',
+          url: '/bootstrap/listgroup',
+          icon: 'icon-link'
+        },
+        {
+          name: 'Modal',
+          url: '/bootstrap/modal',
+          icon: 'icon-link'
+        }
+
+      ]
+    },
+    {
+      name: 'Vue Plugins',
+      url: '/vueplugins',
+      icon: 'icon-puzzle',
+      children: [
+        {
+          name: 'VToolTip',
+          url: '/vueplugins/vtooltip',
+          icon: 'icon-puzzle'
         }
       ]
     },
@@ -30,11 +93,17 @@ export default {
       url: '/components',
       icon: 'icon-puzzle',
       children: [
+        // {
+        //   name: 'Alerts',
+        //   url: '/components/alerts',
+        //   icon: 'icon-puzzle'
+        // },
         {
           name: 'Buttons',
           url: '/components/buttons',
           icon: 'icon-puzzle'
         },
+
         {
           name: 'Social Buttons',
           url: '/components/social-buttons',

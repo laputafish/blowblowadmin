@@ -15,6 +15,19 @@ import Widgets from '@/views/Widgets'
 
 // View: /bootstrapcdn
 import Alerts from '@/views/bootstrap/Alerts'
+// import Alerts from '@/views/bootstrap/Alerts'
+import Badge from '@/views/bootstrap/Badge'
+import BootstrapButtons from '@/views/bootstrap/Buttons'
+import Carousel from '@/views/bootstrap/Carousel'
+import Collapse from '@/views/bootstrap/Collapse'
+import Dropdown from '@/views/bootstrap/Dropdown'
+import BootstrapForms from '@/views/bootstrap/Forms'
+import InputGroup from '@/views/bootstrap/InputGroup'
+import Jumbotron from '@/views/bootstrap/Jumbotron'
+import ListGroup from '@/views/bootstrap/ListGroup'
+import Modal from '@/views/bootstrap/Modal'
+
+import VToolTip from '@/views/vueplugins/VToolTip'
 
 // View: /Components
 import Buttons from '@/views/components/Buttons'
@@ -120,6 +133,74 @@ export default new Router({
               path: 'alerts',
               name: 'Alerts',
               component: Alerts
+            },
+            {
+              path: 'badge',
+              name: 'Badges',
+              component: Badge
+            },
+            {
+              path: 'buttons',
+              name: 'Buttons',
+              component: BootstrapButtons
+            },
+            {
+              path: 'carousel',
+              name: 'Carousel',
+              component: Carousel
+            },
+            {
+              path: 'collapse',
+              name: 'Collapse',
+              component: Collapse
+            },
+            {
+              path: 'dropdown',
+              name: 'Dropdown',
+              component: Dropdown
+            },
+            {
+              path: 'forms',
+              name: 'Forms',
+              component: BootstrapForms
+            },
+            {
+              path: 'inputgroup',
+              name: 'InputGroup',
+              component: InputGroup
+            },
+            {
+              path: 'jumbotron',
+              name: 'Jumbotron',
+              component: Jumbotron
+            },
+            {
+              path: 'listgroup',
+              name: 'ListGroup',
+              component: ListGroup
+            },
+            {
+              path: 'modal',
+              name: 'Modal',
+              component: Modal
+            }
+          ]
+        },
+
+        {
+          path: 'vueplugins',
+          redirect: '/vueplugins/vtooltip',
+          name: 'VuePlugins',
+          component: {
+            render (c) {
+              return c('router-view')
+            }
+          },
+          children: [
+            {
+              path: 'vtooltip',
+              name: 'VToolTip',
+              component: VToolTip
             }
           ]
         },

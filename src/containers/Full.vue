@@ -9,19 +9,19 @@
           <router-view></router-view>
         </div>
       </main>
-      <appAside/>
+      <app-aside/>
     </div>
-    <appFooter/>
+    <app-footer/>
   </div>
 </template>
 
 <script>
 import nav from '../_nav'
 import {
-  Header as appHeader,
-  Sidebar as sidebar,
-  Aside as appAside,
-  Footer as appFooter} from '../components/index.js'
+  AppHeader as appHeader,
+  AppSidebar as sidebar,
+  AppAside as appAside,
+  AppFooter as appFooter} from '../components/index.js'
 import Breadcrumb from '../components/Breadcrumb.vue'
 
 export default {

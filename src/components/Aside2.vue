@@ -4,6 +4,6 @@
 
 <script>
 export default {
-  name: 'aside'
+  name: 'app-aside'
 }
 </script>

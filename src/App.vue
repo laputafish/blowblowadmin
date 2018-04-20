@@ -28,7 +28,7 @@ export default {
 </style>
 <style lang="scss">
 // @import "./assets/css/style.css";
-@import "./assets/custom-bootstrap.scss";
+// @import "./assets/custom-bootstrap.scss";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../node_modules/bootstrap-vue/dist/bootstrap-vue.css";
 @import "./assets/scss/style";

@@ -1,19 +1,19 @@
-import Aside from './Aside.vue'
+import AppAside from './Aside.vue'
 import Breadcrumb from './Breadcrumb.vue'
 import Callout from './Callout.vue'
-import Footer from './Footer.vue'
-import Header from './Header.vue'
-import Sidebar from './Sidebar.vue'
+import AppFooter from './Footer.vue'
+import AppHeader from './Header.vue'
+import AppSidebar from './Sidebar.vue'
 import Switch from './Switch.vue'
 import MyDropdownItem from './MyDropdownItem.vue'
 
 export {
-  Aside,
+  AppAside,
   Breadcrumb,
   Callout,
-  Footer,
-  Header,
-  Sidebar,
+  AppFooter,
+  AppHeader,
+  AppSidebar,
   Switch,
   MyDropdownItem
 }

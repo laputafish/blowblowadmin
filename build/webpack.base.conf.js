@@ -80,8 +80,8 @@ module.exports = {
     new webpack.ProvidePlugin({
       // jquery
       $: 'jquery',
-      jquery: 'jquery',
       jQuery: 'jquery',
+      jquery: 'jquery',
       'window.$': 'jquery',
       'window.jQuery': 'jquery',
       Popper: 'popper.js'

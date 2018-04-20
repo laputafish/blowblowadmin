@@ -50,7 +50,7 @@ export default {
   components: {
     myDropdownItem: MyDropdownItem
   },
-  name: 'header',
+  name: 'app-header',
   methods: {
     sidebarToggle (e) {
       e.preventDefault()

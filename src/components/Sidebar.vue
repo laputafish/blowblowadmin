@@ -46,7 +46,7 @@ import SidebarNavLink from './SidebarNavLink'
 import SidebarNavTitle from './SidebarNavTitle'
 
 export default {
-  name: 'sidebar',
+  name: 'app-sidebar',
   props: {
     navItems: {
       type: Array,
